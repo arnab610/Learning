@@ -1,0 +1,126 @@
+https://463227100790.signin.aws.amazon.com/console
+pwcse-ARNAB
+Panda@1111/ Pwc@12345
+
+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
+
+
+https://reqbin.com/req/c-ea0d5rlb/curl-add-header-example#:~:text=To%20add%20a%20header%20to,that%20Curl%20would%20otherwise%20send.
+
+52.26.29.208
+
+
+1  sudo apt-get update
+    2  sudo apt-get install apache2
+    3  sudo apt-get install openjdk-11-jdk
+    4  java -v
+    5  java -version
+    6  wget https://arnab-buc.s3.us-west-2.amazonaws.com/pwc-spring-MVC-0.0.1-SNAPSHOT.jar
+    7  ls
+    8  java -jar pwc-spring-MVC-0.0.1-SNAPSHOT.jar 
+    9  wget https://arnab-buc.s3.us-west-2.amazonaws.com/pwc-spring-MVC-0.0.1-SNAPSHOT.jar
+   10  java -jar pwc-spring-MVC-0.0.1-SNAPSHOT.jar 
+
+   docker
+
+ sudo docker -v
+  293  sudo docker images
+  294  sudo docker ps
+  295  sudo docker ps -a
+  296  sudo docker login
+  297  sudo docker pull hello-world
+  298  sudo docker images
+  299  sudo docker run hello-world
+  300  sudo docker ps
+  301  sudo docker ps -a
+-------------------------------------------
+
+ 292  sudo docker -v
+  293  sudo docker images
+  294  sudo docker ps
+  295  sudo docker ps -a
+  296  sudo docker login
+  297  sudo docker pull hello-world
+  298  sudo docker images
+  299  sudo docker run hello-world
+  300  sudo docker ps
+  301  sudo docker ps -a
+  302  history
+  303  sudo docker login
+  304  sudo docker run hello-world
+  305  sudo docker images
+  306  sudo docker run hello-world
+  307  sudo docker ps -a
+  308  sudo docker pull redis
+  309  sudo docker images
+  310  sudo docker run -d redis
+  311  sudo docker ps
+  312  sudo docker exec -it 21fe6fee824d redis-cli
+  313  sudo docker ps
+  314  sudo docker images
+  315  sudo docker rmi hello-world
+  316  sudo docker rmi hello-world --force
+  317  sudo docker images
+  318  sudo docker ps
+  319  sudo docker stop 21fe6fee824d
+  320  sudo docker ps
+  321  sudo docker ps -a
+  322  sudo docker images
+  323  sudo docker ps -a
+  324  sudo docker start 21fe6fee824d
+  325  sudo docker ps
+  326  sudo docker rm 21fe6fee824d --force
+  327  sudo docker ps -a
+  328  sudo docker ps
+  329  sudo docker pull mysql:5.6
+  330  docker run --name mysql-standalone -e MYSQL_ROOT_PASSWORD=password -e MYSQL_DATABASE=test -e MYSQL_USER=sa -e MYSQL_PASSWORD=password -d mysql:5.6
+  331  sudo docker run --name mysql-standalone -e MYSQL_ROOT_PASSWORD=password -e MYSQL_DATABASE=test -e MYSQL_USER=sa -e MYSQL_PASSWORD=password -d mysql:5.6
+  332  sudo docker ps
+  333  sudo docker exec -it a5823749e4a5 bash
+  334  sudo docker images
+  335  sudo  docker tag mysql hakaiarnab/mysql
+  336  sudo  docker tag mysql hakaiarnab/mysql:latest
+  337  sudo  docker tag mysql hakaiarnab/mysql:5.6
+  338  sudo  docker tag mysql:5.6 hakaiarnab/mysql:latest
+  339  sudo docker images
+  340  sudo docker push hakaiarnab/mysql:latest
+  341  sudo docker ps
+  342  sudo docker rm a5823749e4a5 --force
+  343  sudo docker ps
+  344  sudo docker rmi mysql:5.6
+  345  sudo docker images
+  346  sudo docker rmi hakaiarnab/mysql
+  347  sudo docker images
+  348  sudo docker pull hakaiarnab/mysql
+  349  sudo docker images
+
+
+
+
+
+
+
+
+/////////////////////docker image build
+ sudo docker -version
+    2  sudo apt -get update
+    3  sudo apt-get update
+    4  sudo apt install docker.io
+    5  docker -version
+    6  sudo docker -version
+    7  sudo docker --version
+    8  sudo docker images
+    9  sudo docker pull jenkins:2.60.2
+   10  sudo docker run -p 8070:8080 -p 50000:50000 -d jenkins:2.60.2
+   11  sudo docker ps
+   12  sudo logs 4dbf934ef298
+   13  sudo docker logs 4dbf934ef298
+   14  sudo docker ps
+   15  wget https://arnab-thurs-buc.s3.us-west-2.amazonaws.com/pwc-spring-MVC-0.0.1-SNAPSHOT.jar
+   16  ls
+   17  sudo vi Dockerfile
+   18  cat Dockerfile
+   19  sudo docker build . -t users-mysql
+   20  sudo vi Dockerfile
+   21  sudo docker build . -t users-mysql
+   22  sudo docker images
